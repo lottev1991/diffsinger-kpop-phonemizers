@@ -9,7 +9,7 @@ namespace OpenUtau.Core.DiffSinger {
     /// <summary>
     /// A DiffSinger phonemizer which can easily combine Korean and English on one track, while applying Korean sandhi rules on Hangeul lyrics.
     /// This is the "plus" version of the phonemizer, using the "ARPABET Plus" G2P.
-    /// Special thanks to Cadlaxa and EX3.
+    /// Special thanks to EX3 and Cadlaxa.
     /// </summary>
     [Phonemizer("DiffSinger K-POP Phonemizer (ARPABET Plus)", "DIFFS KO+EN", "Lotte V")]
     public class DiffSingerKPopPhonemizerPlus : DiffSingerG2pPhonemizer {
