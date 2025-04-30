@@ -85,7 +85,6 @@ entries:
 # Globals
 - {grapheme: SP, phonemes: [SP]}
 - {grapheme: AP, phonemes: [AP]}
-- {grapheme: EXH, phonemes: [EXH]}
 - {grapheme: "-", phonemes: [SP]}
 - {grapheme: br, phonemes: [AP]}
 - {grapheme: bre, phonemes: [AP]}
