@@ -14,7 +14,7 @@ namespace OpenUtau.Core.DiffSinger {
     [Phonemizer("DiffSinger K-POP Phonemizer (ARPABET Plus)", "DIFFS KO+EN", "Lotte V")]
     public class DiffSingerKPopPhonemizerPlus : DiffSingerG2pPhonemizer {
         protected override string GetDictionaryName() => "dsdict-ko+en.yaml";
-        protected override string GetLangCode() => "en"; // Had to pick one unfortunately. I picked English because it needs phonetic hints more often.
+        public override string GetLangCode() => "en"; // Had to pick one unfortunately. I picked English because it needs phonetic hints more often.
         protected override IG2p LoadBaseG2p() => new ArpabetPlusG2p();
         protected override string[] GetBaseG2pVowels() => new string[] {
             "aa", "ae", "ah", "ao", "aw", "ax", "ay", "eh", "er",
